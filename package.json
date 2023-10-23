@@ -1,0 +1,23 @@
+{
+  "name": "ultimatefs",
+  "version": "0.0.1-alpha.0",
+  "description": "Access filesystems in Node with lots of advantages.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@Le0X8/ultimatefs"
+  },
+  "keywords": [
+    "fs"
+  ],
+  "author": "LeoX DEV",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  }
+}
